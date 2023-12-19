@@ -587,8 +587,10 @@ margin-top: 10px;
   padding: 10px;
   margin-bottom: 10px;  
 }
-div img{
+ .img-serv{
   background-color: #fff;
+}
+.img-serv img{
   width: 40%;
 }
 /*estilos para la seccio contacto*/
