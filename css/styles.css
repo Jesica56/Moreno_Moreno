@@ -756,7 +756,7 @@ footer a {
 /*modal*/
 .modal{
   overflow-y: auto;
-  max-height: 90vh;
+  max-height: 70vh;
 }
 .modal-content h5{
   font-size: 20px;
