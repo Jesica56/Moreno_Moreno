@@ -561,11 +561,31 @@ font-weight: bold;
   color: rgb(4, 95, 31);
 }
 
+/* Estilos para el botón de cierre */
 .close-button {
-  display: block;
-  margin-top: 10px;
+  position: absolute;
+  top: 10px; /* Ajusta la distancia desde la parte superior según sea necesario */
+  right: 10px; /* Ajusta la distancia desde la derecha según sea necesario */
+  width: 30px; /* Ajusta el ancho del botón según sea necesario */
+  height: 30px; /* Ajusta la altura del botón según sea necesario */
+  border: none;
+  border-radius: 50%;
+  background-color: #0cda16; /* Color de fondo del botón */
+  color: #000000; /* Color del texto del botón */
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
+
+/* Estilos adicionales para el botón si es necesario */
+.close-button:hover {
+  background-color: #e0e0e0; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
+
+/* Otros estilos de tu modal si es necesario */
+
 
 .map {
 width: 100%;
@@ -755,8 +775,9 @@ footer a {
   }
 /*modal*/
 .modal{
+  max-height: auto;
   overflow-y: auto;
-  max-height: 70vh;
+ 
 }
 .modal-content h5{
   font-size: 20px;
