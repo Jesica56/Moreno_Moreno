@@ -515,6 +515,7 @@ p {
   justify-content: center;
   align-items: center;
   z-index: 2;
+  overflow-y: auto;
 }
 
 .prev-list-mod{
@@ -699,6 +700,7 @@ footer a {
   font-size: 33px;
  }
  .modal{
+  display: none;
   top: 95px;
   
  }
@@ -776,10 +778,13 @@ footer a {
 /*modal*/
 .modal{
   display: none;
+}
+.modal-content{
+  margin: 20px;
   max-height: 100vh;
   overflow-y: auto;
- 
 }
+
 .modal-content h5{
   font-size: 20px;
 }
