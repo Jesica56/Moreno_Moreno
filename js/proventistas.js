@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     closeButtons.forEach(function(button) {
         button.addEventListener("click", function() {
-            const modal = this.parentNode.parentNode;
+            const modal = this.closest(".modal");
             modal.style.display = "none";
         });
     });
@@ -41,8 +41,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     closeButtons2.forEach(function(button) {
         button.addEventListener("click", function() {
-            const modal = this.parentNode.parentNode;
+            const modal = this.closest(".modal");
             modal.style.display = "none";
         });
     });
 });
+
