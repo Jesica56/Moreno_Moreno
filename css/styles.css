@@ -775,7 +775,8 @@ footer a {
   }
 /*modal*/
 .modal{
-  max-height: auto;
+  display: none;
+  max-height: 100vh;
   overflow-y: auto;
  
 }
