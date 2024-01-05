@@ -504,7 +504,7 @@ p {
   font-weight: 600;
 }
 .modal {
-  display: none;
+
   position: fixed;
  
   top: 65px;
