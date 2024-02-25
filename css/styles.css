@@ -166,8 +166,8 @@ body::-webkit-scrollbar-thumb {
   height: 25px;
   margin: auto;
   position: absolute;
-  right: 30px;
-  top: 0;
+  right: 60px;
+  top: 24px;
   bottom: 0;
 }
 
@@ -805,15 +805,6 @@ footer a {
  h5{
   font-size: 48px;
  }
- .Historia{
-  font-size: 36px;
- }
- .caracteristica .texto_cuadrado p{
-  font-size: 36px;
- }
- .final{
-  font-size: 36px;
- }
  #Servicios h4{
   font-size: 38px;
  }
@@ -869,35 +860,9 @@ footer a {
   }
 /*fin del navbar*/
 /*institucional*/
-#Institucional .titulo .texto h5{
-  text-align: center;
+.text-columnas{
+  column-count: auto;
 }
-  #Institucional .titulo .texto h2{
-    font-size: 20px;
-  }
-  .titulo{
-    flex-direction: column;
-  }
-  .titulo img{
-    margin: 0;
-    width: 100%;
-  }
-  .Historia{
-    flex-direction: column-reverse;
-  }
-  .Historia img{
-    width: 100%;
-    margin: 0;
-  }
-  .caracteristica{
-    flex-direction: column;
-    padding: 10px
-  }
- 
-  .caracteristica img{
-    margin-left: 0;
-    width: 100%;
-  }
 /*modal*/
 
 .modal-content{
@@ -907,15 +872,31 @@ footer a {
 }
 
 .modal-content h5{
-  font-size: 20px;
+  font-size: 14px;
 }
 #Servicios .modal-content p{
-  font-size: 13px;
+  font-size: 12px;
 }
 .prev-list-mod a{
-font-size: 15px;
+font-size: 11px;
 }
 .prev-list-mod{
   padding: 0;
+  margin: 0;
+}
+.imagenes{
+  height: 470px;
+}
+.modal .modal-content h3{
+  font-size: 21px;
+  margin: 10px;
+}
+.contact-container{
+  flex-direction: column;
+  padding: 0;
+  align-items: normal;
+}
+.contact-content{
+  max-width: none;
 }
 }
