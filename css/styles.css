@@ -49,7 +49,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav div.logo a:hover {
-  color: #00e6e6;
+  color: #00ff15;
 }
 
 .nav div.main_list {
@@ -82,7 +82,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav div.main_list ul li a:hover {
-  color: #d4d9dfd5;
+  color: #00ff15;
 }
 
 .nav .container .logo .nav-logo{
