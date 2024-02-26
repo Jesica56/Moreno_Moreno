@@ -167,7 +167,7 @@ body::-webkit-scrollbar-thumb {
   margin: auto;
   position: absolute;
   right: 60px;
-  top: 24px;
+  top: 0;
   bottom: 0;
 }
 
@@ -397,7 +397,7 @@ body::-webkit-scrollbar-thumb {
   width: 1.5em;
   height: 1.5em;
   margin: 0 0.5em; /* Ajusta el margen entre los puntos según sea necesario */
-  background-color: #fcf9f9; /* Color de fondo predeterminado */
+  background-color: #0c7a0249; /* Color de fondo predeterminado */
   border-radius: 50%; /* Para hacer que los puntos sean círculos */
   transition: background-color 0.3s ease; /* Transición del color de fondo */
   cursor: pointer; /* Cambia el cursor al pasar sobre los puntos */
